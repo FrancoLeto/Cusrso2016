@@ -1,0 +1,11 @@
+C:\Users\Usuario\Source\Repos\PruebaEF\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.exe.config
+D:\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.exe.config
+C:\Users\Usuario\Desktop\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.exe.config
+C:\Users\Usuario\Desktop\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.exe
+C:\Users\Usuario\Desktop\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.pdb
+C:\Users\Usuario\Desktop\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Consola.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Consola.exe
+C:\Users\Usuario\Desktop\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Consola.pdb
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.exe.config
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Consola.exe
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Consola.pdb

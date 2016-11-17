@@ -10,7 +10,7 @@ namespace PruebaEF_Consola
     {
         static void Main(string[] args)
         {
-
+      
         }
     }
 }

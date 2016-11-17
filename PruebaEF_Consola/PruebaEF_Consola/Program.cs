@@ -13,7 +13,8 @@ namespace PruebaEF_Consola
         static void Main(string[] args)
         {
             TestEFContext ctx = new TestEFContext();
-            ctx.Usuarios.SqlQuery; 
+            Perfil p = ctx.Perfiles.FirstOrDefault();
+            Console.WriteLine($"{p.Descripcion}");
         }
     }
 }

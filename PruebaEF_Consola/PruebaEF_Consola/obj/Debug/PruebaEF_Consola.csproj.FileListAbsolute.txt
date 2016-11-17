@@ -9,3 +9,17 @@ C:\Users\Usuario\Desktop\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Co
 C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.exe.config
 C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Consola.exe
 C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Consola.pdb
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.exe
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\PruebaEF_Consola.pdb
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\Data.dll
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\Entidades.dll
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\Data.pdb
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\obj\Debug\PruebaEF_Consola.csprojResolveAssemblyReference.cache

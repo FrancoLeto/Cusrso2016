@@ -13,8 +13,18 @@ namespace PruebaEF_Consola
         static void Main(string[] args)
         {
             TestEFContext ctx = new TestEFContext();
+            if (ctx.Database.Exists()) {
+                //string sql = "select * from perfiles";
+                ctx.Database.Connection.Open();
+                //ctx.Database.SqlQuery(sql, ctx.Database.Connection.ToString());
+                ctx.Database.Connection.Close();
+                Console.WriteLine("La Base esta..");
+                Console.ReadLine(); 
+            }
+
             Perfil p = ctx.Perfiles.FirstOrDefault();
             Console.WriteLine($"{p.Descripcion}");
+            Console.ReadLine();
         }
     }
 }

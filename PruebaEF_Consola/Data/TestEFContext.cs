@@ -6,12 +6,26 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using Entidades;
 using System.Data.Entity.ModelConfiguration;
+using System.IO;
 
 namespace Data
 {
     public class TestEFContext : DbContext
     {
-       // public DbSet<Usuario> Usuarios { get; set; }
+        StreamWriter log;
+        public TestEFContext() {
+
+            log = File.CreateText("d:\\log.txt");
+            this.Database.Log = (l) => log.WriteLine(l);
+
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            base.Dispose(disposing);
+            log.Close();
+        }
+        // public DbSet<Usuario> Usuarios { get; set; }
 
         public DbSet<Perfil> Perfiles { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

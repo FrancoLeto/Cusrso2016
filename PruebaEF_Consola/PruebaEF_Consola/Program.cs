@@ -22,9 +22,10 @@ namespace PruebaEF_Consola
                 Console.ReadLine(); 
             }
 
-            Perfil p = ctx.Perfiles.FirstOrDefault();
-            Console.WriteLine($"{p.Descripcion}");
+            string p1 = ctx.Perfiles.Select(p => p.Descripcion).FirstOrDefault();
+            //Console.WriteLine($"{p.Descripcion}");
             Console.ReadLine();
+            ctx.Dispose();
         }
     }
 }

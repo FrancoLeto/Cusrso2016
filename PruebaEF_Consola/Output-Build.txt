@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: PruebaEF_Consola, Configuration: Debug Any CPU ------
+1>C:\Users\Usuario\Source\Repos\Cusrso2016\PruebaEF_Consola\PruebaEF_Consola\Program.cs(30,31,30,39): error CS1061: 'TestEFContext' does not contain a definition for 'Usuarios' and no extension method 'Usuarios' accepting a first argument of type 'TestEFContext' could be found (are you missing a using directive or an assembly reference?)
+========== Build: 0 succeeded, 1 failed, 1 up-to-date, 0 skipped ==========

@@ -25,15 +25,29 @@ namespace Data
             base.Dispose(disposing);
             log.Close();
         }
-        // public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
         public DbSet<Perfil> Perfiles { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new ConfiguraPerfil() );
+            modelBuilder.Configurations.Add(new CofiguraUsuario());
         }
         
     }
+
+
+    public class CofiguraUsuario : EntityTypeConfiguration<Usuario> {
+
+        public CofiguraUsuario() {
+            this.HasKey(u => u.Login);
+            this.HasRequired(u => u.perfil)
+                .WithMany(p => p.usuario).Map(cfg => cfg.MapKey("ID_Perfil"));
+            this.ToTable("Usuarios");
+        }
+    }
+
     public class ConfiguraPerfil : EntityTypeConfiguration<Perfil> {
         public ConfiguraPerfil() {
             this.HasKey(p => p.IDPerfil);

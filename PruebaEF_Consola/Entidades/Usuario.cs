@@ -9,8 +9,9 @@ namespace Entidades
     public class Usuario
     {
         public string Login { get; set; }
-        public DateTime fechaUltimoLogin { get; set; }
-        public int IntentosInvalidos { get; set; }
-        public Perfil perfil { get; set; }
+        public DateTime? FechaLogin { get; set; }
+        public int? IntentosInvalidos { get; set; }
+        public virtual Perfil perfil { get; set; }
+   
     }
 }
